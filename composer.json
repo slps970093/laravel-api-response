@@ -1,0 +1,43 @@
+{
+    "name": "slps970093/laravel-api-response",
+    "description": "laravel-api-response",
+    "keywords": [
+        "slps970093",
+        "laravel-api-response"
+    ],
+    "homepage": "https://github.com/slps970093/laravel-api-response",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chou, Yu-Hsien",
+            "email": "slps970093@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": ">=9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slps970093\\LaravelApiResponse\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slps970093\\LaravelApiResponse\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
